@@ -1,0 +1,106 @@
+# ==========================================
+# API KEYS AND ENVIRONMENT VARIABLES
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# PYTHON VIRTUAL ENVIRONMENTS
+# ==========================================
+venv/
+env/
+ENV/
+.venv/
+analysis_venv/
+
+# ==========================================
+# PYTHON CACHE FILES
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# Python packaging
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# JUPYTER NOTEBOOKS
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# IDE CONFIGURATION
+# ==========================================
+.vscode/
+.idea/
+
+# ==========================================
+# OPERATING SYSTEM FILES
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# LOG FILES
+# ==========================================
+*.log
+
+# ==========================================
+# TEMPORARY FILES
+# ==========================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ==========================================
+# TEST AND COVERAGE OUTPUT
+# ==========================================
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# LOCAL DATABASE FILES
+# ==========================================
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================================
+# GENERATED MODEL AND TRAINING FILES
+# ==========================================
+*.pt
+*.pth
+*.ckpt
+*.safetensors
